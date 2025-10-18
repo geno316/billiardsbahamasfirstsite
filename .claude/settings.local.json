@@ -3,7 +3,12 @@
     "allow": [
       "Bash(gh auth login)",
       "Bash(git remote add origin https://github.com/geno316/billiardsbahamasfirstsite.git)",
-      "Bash(git add .)"
+      "Bash(git add .)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Billiards Bahamas website\n\nAdded complete website structure including home, about, schedule, tournaments, livestreams, videos, and contact pages with responsive design and navigation.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git config --global user.email \"wallace.geno@gmail.com\")",
+      "Bash(git config --global user.name \"geno316\")",
+      "Bash(git push -u origin master)",
+      "Bash(npm start)"
     ],
     "deny": [],
     "ask": []
